@@ -1,10 +1,10 @@
 body{
     margin:0;
-    background-color: black;
+    background-color:whitesmoke;
 }
 
 p{
-    color:lightblue;
+    color:teal;
 }
 
 h1{
@@ -24,14 +24,14 @@ section{
 nav a{
     text-decoration: none;
     padding: 20px;
-    color:white;
+    color:black;
     display:block;
-    box-shadow: 0 0 50px white;
+    box-shadow: 0 0 50px black;
     margin-top: 10px;
 }
 nav a:hover{
-    color:black;
-    background-color: white;
+    color:teal;
+    background-color:white;
     box-shadow: 0 0 50px black;
 
 }
@@ -42,7 +42,7 @@ aside {
     height:100%;
     top:0;
     bottom:0;
-    box-shadow: 0 0 10px white;
+    box-shadow: 0 0 10px black;
 
 }
 nav{
@@ -53,7 +53,7 @@ nav img{
     height:180px;
     margin-top: 70px;
     border-radius: 50%;
-    box-shadow: 0 0 100px white;
+    box-shadow: 0 0 100px black;
     animation: none;
 }
 
@@ -94,7 +94,7 @@ nav img:hover{
     font-size: 16px;
     display: inline-block;
     padding:10px;
-    box-shadow: 0 0 25px black;
+    box-shadow: 0 0 25px white;
 }
 
 /*---------------- About article animation------*/
@@ -126,26 +126,18 @@ nav img:hover{
 
 /*----------------- Education article-----------*/
 
-#Education article{
-    width: 200px;
-    margin-right: 1%;
-    color:whitesmoke;
-    font-size: 16px;
-    text-align: justify;
-    display: inline-block;
-    padding:10px;
-}
+
 #Education table td{
     padding: 25px;
     text-align: justify;
 }
-#Education td:hover p {
+#Education td:hover p,#Skills article:hover,#Certifications article:hover,#Projects article:hover {
     transform:TranslateY(-20px);
     cursor: pointer;
-    color: white;
+    color: black;
     padding:30px;
     border-radius: 25px;
-    box-shadow: 0 0 30px white;
+    box-shadow: 0 0 30px black;
 
 }
 
@@ -153,13 +145,13 @@ nav img:hover{
 
 /*----------Skills Article---------*/
 #Skills article{
-    border: 2px solid white;
+    border: 2px solid black;
     padding:10px;
     margin:50px;
     border-radius: 25px;
 
 }
-#Skills article:hover{
+/*#Skills article:hover{
     transform:skewX(5deg);
     padding:10px;
     margin:10px;
@@ -167,9 +159,9 @@ nav img:hover{
     border-radius: 25px;
     box-shadow: 0 0 30px white;
     cursor: pointer;
-}
+}*/
 #Skills article:hover p{
-    color:white;
+    color:black;
 }
 
 /*----------End of Skills article--------*/
@@ -177,41 +169,47 @@ nav img:hover{
 /*----------------Certifications Article---------*/
 
 #Certifications article{
-    border: 2px solid white;
+    border: 2px solid black;
     padding:10px;
     margin:50px;
     border-radius: 25px;
 }
-#Certifications article:hover{
+/*#Certifications article:hover{
     transform:skewX(5deg);
     padding:10px;
     margin:10px;
     font-size: 20px;
     border-radius: 25px;
     box-shadow: 0 0 30px white;
-}
+}*/
 #Certifications article:hover p{
-    color:white;
+    color:black;
 }
 
 /*------------End of Certifications Article------*/
 
 /*----------Projects Article----------*/
 #Projects article{
-    border: 2px solid white;
+    border: 2px solid black;
     padding:10px;
     margin:50px;
     border-radius: 25px;
 }
-#Projects article:hover{
+/*#Projects article:hover{
     transform:skewX(5deg);
     padding:10px;
     margin:10px;
     font-size: 20px;
     border-radius: 25px;
     box-shadow: 0 0 30px white;
-}
+}*/
 #Projects article:hover p{
-    color:white;
+    color:black;
+}
+article p a{
+    color:crimson;
+}
+h2,th{
+    color:black;
 }
 /*--------------------End of Projects Article--------*/
